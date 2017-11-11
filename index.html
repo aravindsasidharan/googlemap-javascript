@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google map form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<form>
+			<div class="searchbar">
+		<input type="text" name="search" id="search" placeholder="search for location">
+		<button>Search</button>
+	</div>
+			<div class="form-inner">
+				<label for="name">Name</label>
+			<input type="text"
+			name="name" id ="name">
+
+
+	
+			</div>
+			<div class="form-inner">
+				<label for="email">Email
+				</label>
+				<input type="email" name="email" id="email" placeholder="email">
+
+			</div>
+			<div class="form-inner">
+				<label for="phone">Phone
+				</label>
+				<input type="number" name="phone" id="phone" placeholder="phone">
+				 
+			</div>
+			<div class="form-inner">
+				<label for="address">address
+				</label>
+				<textarea id ="address" placeholder="enter address" row=10 placeholder="enter address" > </textarea>
+				
+			</div>
+			<div class="submit-btn">
+			 <input type="submit" name="submit" value="save" id="submit">
+			 </div>
+		</form>
+		
+	</div>
+	<div id="map"></div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqYGSObfjSXEGV-ZfiLEqmf4P6JQ8KU6k&libraries=places&callback=initMap"
+    async defer></script>
+<script type="text/javascript" src="script.js">
+	
+</script>
+</body>
+</html>

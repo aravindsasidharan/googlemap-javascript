@@ -1,0 +1,97 @@
+body
+{
+	background-color: #efefef;
+}
+.container
+{
+
+display: flex;
+flex-direction: column;
+padding: 5%;
+justify-content: center;	
+
+}
+
+#search
+{
+	padding:1%;
+	border-radius: 10px;
+	margin-bottom:30px;
+}
+.form-inner
+{
+	display: flex;
+	justify-content: flex-start;
+	padding:1%;
+
+}
+.form-inner label
+{
+	flex:1;
+
+
+}
+.form-inner input
+{
+	flex:10;
+	padding:1%;
+	border-radius: 5px;
+
+
+}
+.form-inner textarea
+{
+	flex:10;
+	padding: 1%;
+	border-radius:5px;
+}
+.searchbar
+{
+	display: flex;
+}
+.searchbar input
+{
+	flex:4;
+}
+.searchbar button{
+	flex:1;
+	height:40px;
+	margin: 0 10px;
+	padding:2px;
+	border-radius: 20px;
+	background-color: red;
+	color:white;
+	box-shadow: 5px 5px 5px grey;
+}
+.submit-btn
+{
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+#submit
+{
+	width:30%;
+	background-color: goldenrod;
+	padding: 20px;
+	border-radius: 50px;
+	box-shadow:5px 5px 5px gray;
+	font-size: 20px;
+	color:white;
+}
+.searchbar button:hover{
+	box-shadow: 3px 3px 3px gray;
+
+}
+.searchbar button:focus{
+	outline: 0;
+}
+.searchbar button:active{
+	outline: 0;
+	margin-top:2px;
+	box-shadow: 0px 0px 0px gray;
+}
+#map
+{
+	height:400px;
+}
